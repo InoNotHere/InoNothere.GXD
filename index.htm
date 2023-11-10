@@ -25,6 +25,18 @@
             box-sizing: border-box;
             border-radius: 10px;
             overflow: hidden;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
         .profile-header {
@@ -53,17 +65,20 @@
 
         h1 {
             margin-bottom: 5px;
+            font-size: 24px;
         }
 
         h2 {
             border-bottom: 2px solid #fff;
             padding-bottom: 5px;
             margin-top: 20px;
+            font-size: 18px;
         }
 
         p {
             line-height: 1.6;
             margin-bottom: 15px;
+            font-size: 16px;
         }
 
         ul {
@@ -74,23 +89,54 @@
 
         li {
             margin-bottom: 10px;
+            font-size: 16px;
         }
 
         a {
             color: #007bff;
             text-decoration: none;
+            transition: color 0.3s ease-in-out;
         }
 
         a:hover {
-            text-decoration: underline;
+            color: #fff;
+        }
+
+        nav {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            display: flex;
+            gap: 15px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 14px;
+            padding: 5px;
+            border: 1px solid #fff;
+            border-radius: 5px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            background-color: #fff;
+            color: #000;
         }
     </style>
 </head>
 <body>
 
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
     <div class="profile-container">
         <div class="profile-header">
-            <h1>Ino/InoNotHere</h1>
+            <h1>InoNotHere/Ino</h1>
             <p>Developer</p>
         </div>
 
@@ -104,7 +150,6 @@
             <ul>
                 <li>Email: inomc29@gmail.com</li>
                 <li>Phone: (63+) 919 215 3663</li>
-                <li>Discord: Inonothere</li>
                 <li>Twitter: <a href="https://twitter.com/InoNotHeres" target="_blank">https://twitter.com/InoNotHeres</a></li>
                 <li>GitHub: <a href="https://github.com/InoNotHere" target="_blank">github.com/InoNotHere</a></li>
             </ul>
@@ -113,3 +158,4 @@
 
 </body>
 </html>
+
