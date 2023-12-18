@@ -44,7 +44,7 @@ $(document).ready(function () {
         " Developer" ,
         "Animator",
         "Programmer",
-        "Information Technology (IT)"
+        "Computer Science (CS)"
       ],
       typeSpeed: 100,
       backSpeed: 60,
@@ -57,7 +57,7 @@ $(document).ready(function () {
         " Developer" ,
         "Animator",
         "Programmer",
-        "Information Technology (IT)"
+        "Computer Science (CS)"
       ],
       typeSpeed: 100,
       backSpeed: 60,
