@@ -57,7 +57,7 @@ $(document).ready(function () {
         " Developer" ,
         "Animator",
         "Programmer",
-        "Computer Science (CS)"
+        "Computer Engeneering (CpE)"
       ],
       typeSpeed: 100,
       backSpeed: 60,
